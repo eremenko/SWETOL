@@ -1,0 +1,11 @@
+
+# list of users without delay
+superusers=192.168.0.1/32 192.168.0.2/32
+
+# default users for using delay feature, without it we will delay all packets, its very bad, IMHO
+default_users=192.168.0.0/24 77.232.15.197/32
+default_delay=100ms
+
+# very bad users, delaying for it is more than possible
+bad_users=192.168.0.10/32 194.87.0.50/32 192.168.1.37/32 192.168.1.22/32
+bad_users_delay=200ms
